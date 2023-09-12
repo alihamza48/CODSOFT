@@ -1,0 +1,305 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Playfair Display", serif;
+}
+
+/* Header  */
+div.header {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+  background: transparent;
+  background-image: url("bg.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+  opacity: 0.9;
+}
+
+p.header {
+  transform: translateY(25vh);
+  text-align: center;
+  color: white;
+  font-size: 1.8em;
+  letter-spacing: 7px;
+  margin-bottom: 0;
+  text-shadow: 3px 3px 4px black;
+  font-weight: 500;
+}
+p.header1 {
+  margin-top: 0;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  transform: translateY(25vh);
+  color: white;
+  font-size: 3.3em;
+  letter-spacing: 10px;
+  text-shadow: 4px 4px 1.5px rgb(0, 0, 0, 1);
+  text-transform: uppercase;
+}
+h1.first {
+  font-family: "Ma Shan Zheng", "cursive";
+  font-size: 6em;
+  margin: 0;
+  transform: translateY(32vh);
+  letter-spacing: 20px;
+  color: rgb(255, 123, 0);
+  border: none;
+  opacity: 0.9;
+}
+
+/* Intro  */
+div.second {
+  background-color: rgb(238, 186, 140);
+  margin: 0;
+  padding: 60px 80px;
+}
+
+div.intro {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+h2.intro,
+p.intro {
+  text-align: center;
+  width: 60%;
+  margin: 10px 0px;
+  font-weight: bold;
+}
+h2.intro {
+  font-size: 2em;
+}
+div.cakes {
+  display: flex;
+}
+p.second {
+  font-weight: bold;
+  margin: 0;
+  font-size: 0.9em;
+}
+div.second2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 50vw;
+  max-height: 76vh;
+}
+img.second1 {
+  height: 76vh;
+  width: 30vw;
+  margin-right: 80px;
+}
+img.second2 {
+  height: 45vh;
+  width: 50vw;
+  margin-top: 58px;
+}
+
+/* Third */
+div.third {
+  display: flex;
+}
+.third1 {
+  height: 80vh;
+  width: 34%;
+}
+div#today {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 12px;
+  background-color: white;
+}
+h2.third {
+  font-size: 2em;
+}
+p.date {
+  font-weight: 600;
+  color: rgb(97, 96, 96);
+}
+p.third {
+  text-align: center;
+  margin: 0;
+  font-weight: bold;
+}
+button.third {
+  margin-top: 25px;
+  padding: 12px 22px;
+  font-size: 0.9em;
+  background-color: rgb(238, 186, 140);
+  border: none;
+}
+
+/* Shop */
+div.four {
+  background-image: url("back2.jpg");
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 80vh;
+  z-index: -1;
+}
+h2.four {
+  margin: 0;
+  text-align: center;
+  color: white;
+  transform: translate(43vw, 20vh);
+  font-size: 2.7em;
+  letter-spacing: 4px;
+  text-shadow: 4px 4px 5px black;
+  width: 40%;
+}
+p.four {
+  margin: 0;
+  text-align: center;
+  color: white;
+  width: 40%;
+  transform: translate(52vw, 24vh);
+  text-align: left;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-shadow: 3px 3px 5px black;
+}
+button.four {
+  margin-top: 60px;
+  transform: translate(80vw, 24vh);
+  padding: 12px 22px;
+  font-size: 1em;
+}
+
+/* Savoury */
+div.five {
+  background-color: black;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  /* padding: 20px; */
+  height: 80vh;
+}
+div.savoury {
+  width: 50%;
+}
+h2.five {
+  /* width: 0%; */
+  transform: translate(15vw, 12vh);
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-size: 2.5em;
+  letter-spacing: 10px;
+  text-shadow: 3px 3px 5px rgb(65, 64, 64);
+}
+h2.five1 {
+  font-family: "Ma Shan Zheng", "cursive";
+  font-size: 3.5em;
+  margin: 0;
+  transform: translate(14.5vw, 16.5vh);
+  letter-spacing: 10px;
+  color: rgb(255, 123, 0);
+  border: none;
+  opacity: 0.9;
+}
+p.five {
+  color: white;
+  width: 80%;
+  /* padding: 20px; */
+  transform: translate(3.5vw, 15vh);
+  text-align: center;
+}
+button.five {
+  transform: translate(18vw, 18vh);
+  padding: 12px 22px;
+  font-size: 1em;
+}
+
+div.up {
+  display: flex;
+  transform: translateY(17vh);
+}
+div.down {
+  display: flex;
+  transform: translateY(17vh);
+}
+
+img.fivea {
+  height: 22vh;
+  width: 22vw;
+  padding: 5px;
+}
+img.fiveb {
+  height: 22vh;
+  width: 22vw;
+  padding: 5px;
+}
+img.fivec {
+  height: 22vh;
+  width: 22vw;
+  padding: 5px;
+}
+img.fived {
+  height: 22vh;
+  width: 22vw;
+  padding: 5px;
+}
+
+/* Footer  */
+div.footer {
+  background: linear-gradient(45deg, black, rgb(56, 55, 55), black);
+  height: 65vh;
+}
+h2.footer {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  text-align: center;
+  margin: 0px;
+  width: 18%;
+  padding: 4px;
+  background-color: rgb(255, 255, 255);
+  font-size: 2em;
+  transform: translateY(5vh);
+}
+
+p.footer {
+  color: white;
+  transform: translateY(15vh);
+  width: 50%;
+  text-align: center;
+}
+img.footer {
+  transform: translate(20vw, 15vh);
+  height: 6vh;
+  width: 3vw;
+  margin: 8px;
+}
+
+div.time {
+  width: 35%;
+  color: white;
+  transform: translate(55vw, -20vh);
+  text-align: center;
+}
+h3.foot {
+  padding-bottom: 10px;
+  border-bottom: 2px solid white;
+  letter-spacing: 2px;
+}
+p.end {
+  transform: translate(38vw, -13vh);
+  color: white;
+  width: 30%;
+  letter-spacing: 4px;
+}
